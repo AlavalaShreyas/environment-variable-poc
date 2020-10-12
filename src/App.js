@@ -5,17 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href={process.env.REACT_APP_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>{process.env.REACT_APP_URL}</h1>
+        <h2>{process.env.REACT_APP_URL1}</h2>
+        <h3>{process.env.REACT_APP_URL2}</h3>
       </header>
     </div>
   );
